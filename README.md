@@ -51,8 +51,8 @@
 ### 📊 GitHub Stats  
 <div align="center">
   
-![Daniel's GitHub stats](https://github-readme-stats.vercel.app/api?username=Dass-19&show_icons=true&theme=tokyonight&count_private=true)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dass-19&layout=compact&theme=tokyonight)
+![Daniel's GitHub stats](https://github-readme-stats.vercel.app/api?username=dass-19&show_icons=true&theme=tokyonight&count_private=true)   
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dass-19&layout=compact&theme=tokyonight)
 
 </div>
 
@@ -73,4 +73,4 @@
 
 ---
 
-<p align="center">*Don't be scared.*</p>
+<h1 align="center">Don't be scared</h1>
