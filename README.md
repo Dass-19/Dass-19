@@ -73,4 +73,4 @@
 
 ---
 
-<h1 align="center">Don't be scared</h1>
+<h1 align="center">Don't be afraid.</h1>
