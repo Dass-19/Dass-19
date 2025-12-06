@@ -48,16 +48,6 @@
 
 ---
 
-### 📊 GitHub Stats  
-<div align="center">
-  
-![Daniel's GitHub stats](https://github-readme-stats.vercel.app/api?username=dass-19&show_icons=true&theme=tokyonight&count_private=true)   
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dass-19&layout=compact&theme=tokyonight)
-
-</div>
-
----
-
 ### ⚡ Featured Projects  
 - 🧩 [AC Admisión & Nivelación](https://github.com/Dass-19/AC-Admision_Nivelacion) — We developed a conversational agent based on natural language processing techniques that answers the most frequently asked questions from admission and placement students at the University of Guayaquil.
 
