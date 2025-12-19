@@ -19,13 +19,11 @@
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-336791?style=flat&logo=postgresql&logoColor=white)
 
----
 
 ### Databases  
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
----
 
 ### Machine Learning & Deep Learning  
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat&logo=scikitlearn)
@@ -33,24 +31,20 @@
 ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat&logo=keras&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/-XGBoost-EC4D28?style=flat&logo=xgboost&logoColor=white)
 
----
 
 ### Natural Language Processing & LLMs  
 ![spaCy](https://img.shields.io/badge/-spaCy-09A3D5?style=flat&logo=spacy&logoColor=white)
 ![NLTK](https://img.shields.io/badge/-NLTK-154F9C?style=flat)
 ![Hugging%20Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 
----
 
 ### Big Data & Distributed Processing  
 ![PySpark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 
----
 
 ### ETL / ELT & Data Engineering  
 ![Pentaho Data Integration](https://img.shields.io/badge/-Pentaho%20Data%20Integration-005EB8?style=flat&logo=pentaho&logoColor=white)
 
----
 
 ### Data Visualization & BI  
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=flat&logo=python&logoColor=white)
@@ -59,7 +53,6 @@
 ![Power%20BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 
----
 
 ### Web Applications  
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
