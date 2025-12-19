@@ -9,55 +9,74 @@
 - I love [music](https://open.spotify.com/user/pfxjkuz15avx6uwxra36oj4pt?si=be4e7b100caa4c9b)
 ---
 
-### **Tech Stack**  
-<div align="center">
+## 🛠️ Tech Stack
 
-### Programming Languages  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-336791?style=flat&logo=postgresql&logoColor=white)
+<div style="display:flex; flex-wrap:wrap; gap:20px;">
 
+  <!-- Programming Languages -->
+  <div style="flex:1; min-width:300px; border:1px solid #e1e4e8; border-radius:12px; padding:15px;">
+    <h3>👨‍💻 Programming Languages</h3>
+    <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-SQL-336791?style=flat&logo=postgresql&logoColor=white"/>
+  </div>
 
-### Databases  
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+  <!-- Databases -->
+  <div style="flex:1; min-width:300px; border:1px solid #e1e4e8; border-radius:12px; padding:15px;">
+    <h3>🗄️ Databases</h3>
+    <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"/>
+  </div>
 
+  <!-- ML & DL -->
+  <div style="flex:1; min-width:300px; border:1px solid #e1e4e8; border-radius:12px; padding:15px;">
+    <h3>🧠 Machine Learning & Deep Learning</h3>
+    <img src="https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat&logo=scikitlearn"/>
+    <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Keras-D00000?style=flat&logo=keras&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-XGBoost-EC4D28?style=flat&logo=xgboost&logoColor=white"/>
+  </div>
 
-### Machine Learning & Deep Learning  
-![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat&logo=scikitlearn)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat&logo=keras&logoColor=white)
-![XGBoost](https://img.shields.io/badge/-XGBoost-EC4D28?style=flat&logo=xgboost&logoColor=white)
+  <!-- NLP -->
+  <div style="flex:1; min-width:300px; border:1px solid #e1e4e8; border-radius:12px; padding:15px;">
+    <h3>🗣️ NLP & LLMs</h3>
+    <img src="https://img.shields.io/badge/-spaCy-09A3D5?style=flat&logo=spacy&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-NLTK-154F9C?style=flat"/>
+    <img src="https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black"/>
+  </div>
 
+  <!-- Big Data -->
+  <div style="flex:1; min-width:300px; border:1px solid #e1e4e8; border-radius:12px; padding:15px;">
+    <h3>⚡ Big Data</h3>
+    <img src="https://img.shields.io/badge/-PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white"/>
+  </div>
 
-### Natural Language Processing & LLMs  
-![spaCy](https://img.shields.io/badge/-spaCy-09A3D5?style=flat&logo=spacy&logoColor=white)
-![NLTK](https://img.shields.io/badge/-NLTK-154F9C?style=flat)
-![Hugging%20Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+  <!-- ETL -->
+  <div style="flex:1; min-width:300px; border:1px solid #e1e4e8; border-radius:12px; padding:15px;">
+    <h3>🔄 ETL / ELT</h3>
+    <img src="https://img.shields.io/badge/-Pentaho%20Data%20Integration-005EB8?style=flat&logo=pentaho&logoColor=white"/>
+  </div>
 
+  <!-- Visualization -->
+  <div style="flex:1; min-width:300px; border:1px solid #e1e4e8; border-radius:12px; padding:15px;">
+    <h3>📊 Data Visualization & BI</h3>
+    <img src="https://img.shields.io/badge/-Matplotlib-11557C?style=flat&logo=python&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Seaborn-76B900?style=flat&logo=python&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Bokeh-E34F26?style=flat&logo=bokeh&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black"/>
+    <img src="https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white"/>
+  </div>
 
-### Big Data & Distributed Processing  
-![PySpark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+  <!-- Web -->
+  <div style="flex:1; min-width:300px; border:1px solid #e1e4e8; border-radius:12px; padding:15px;">
+    <h3>🚀 Web Applications</h3>
+    <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white"/>
+  </div>
 
-
-### ETL / ELT & Data Engineering  
-![Pentaho Data Integration](https://img.shields.io/badge/-Pentaho%20Data%20Integration-005EB8?style=flat&logo=pentaho&logoColor=white)
-
-
-### Data Visualization & BI  
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=flat&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/-Seaborn-76B900?style=flat&logo=python&logoColor=white)
-![Bokeh](https://img.shields.io/badge/-Bokeh-E34F26?style=flat&logo=bokeh&logoColor=white)
-![Power%20BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-
-
-### Web Applications  
-![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white)
 </div>
 
 ---
