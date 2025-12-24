@@ -32,17 +32,17 @@
 ![XGBoost](https://img.shields.io/badge/-XGBoost-EC4D28?style=flat&logo=xgboost&logoColor=white)
 
 
-### Natural Language Processing & LLMs  
+### Natural Language Processing  
 ![spaCy](https://img.shields.io/badge/-spaCy-09A3D5?style=flat&logo=spacy&logoColor=white)
 ![NLTK](https://img.shields.io/badge/-NLTK-154F9C?style=flat)
 ![Hugging%20Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 
 
-### Big Data & Distributed Processing  
+### Big Data
 ![PySpark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 
 
-### ETL / ELT & Data Engineering  
+### ETL / ELT
 ![Pentaho Data Integration](https://img.shields.io/badge/-Pentaho%20Data%20Integration-005EB8?style=flat&logo=pentaho&logoColor=white)
 
 
