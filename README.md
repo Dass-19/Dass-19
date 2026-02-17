@@ -16,6 +16,8 @@
 
 - [Student Dropout Prediction System](https://github.com/Dass-19/desercionEstudiantil) — Machine Learning system that predicts student dropout risk using academic performance and attendance data. Built following the CRISP-DM methodology with an interactive Streamlit app for analysis and model interpretability. Deployed on Streamlit Cloud for real-time exploration.
 
+- [Sales Data Warehouse - AdventureWorks](https://github.com/Dass-19/sales-data-warehouse-adventureworks.git) — Sales Data Warehouse built from AdventureWorks using a star schema, ETL pipelines in Pentaho, and PostgreSQL for analytics.
+
 ---
 
 ### Connect With Me   
