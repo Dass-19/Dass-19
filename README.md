@@ -5,7 +5,6 @@
 ---
 ### **About Me** 
 - Studying Data Science & Artificial Intelligence Engineering in Guayaquil, Ecuador  
-- Passionate about Machine Learning, AI models, and data-driven systems  
 - I love [music](https://open.spotify.com/user/pfxjkuz15avx6uwxra36oj4pt?si=be4e7b100caa4c9b)
 ---
 
