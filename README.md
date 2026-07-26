@@ -74,7 +74,7 @@
 
 🌊 **[Godzilla-EnsoStreamingPipeline](https://github.com/Dass-19/Godzilla-EnsoStreamingPipeline)** — End-to-End Big Data Real-Time Streaming Architecture for El Niño (ENSO) flood risk monitoring in Guayaquil. Ingests multi-source climate and satellite data (NOAA, INAMHI, INOCAR, NASA POWER) via Apache Kafka, processes streaming events with Apache Spark, stores data in an HDFS Parquet Data Lake, and serves dynamic risk indices to an interactive OpenStreetMap Dashboard via FastAPI.
 
-🗣️ **[longoApp](https://github.com/Dass-19/longoApp)** — Multilingual multimedia speech-to-text & translation system to Kichwa ecuatoriano. Extracts audio/video speech in Spanish/English and translates it directly into Kichwa. Integrates OpenAI Whisper (ASR) with a fine-tuned Meta NLLB-200 Machine Translation model, deployed via FastAPI, Docker, and Vercel.
+🗣️ **[longoApp](https://github.com/Dass-19/longoApp)** — Multilingual multimedia speech-to-text & translation system to Kichwa ecuatoriano. Extracts audio/video speech in Spanish/English and translates it directly into Kichwa. Integrates OpenAI Whisper (ASR) with a fine-tuned Meta NLLB-200 Machine Translation model, deployed via FastAPI, Docker, GCP and Vercel.
 
 🏥 **[agentMvp](https://github.com/Dass-19/agentMvp)** — RAG backend for a healthcare assistant. Built with LangGraph, FastAPI, Supabase (pgvector), and Llama-3-8B via Hugging Face Inference. Handles multi-turn conversations, semantic retrieval, and returns grounded HTML responses with cited sources.
 
