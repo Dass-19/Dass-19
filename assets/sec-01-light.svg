@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 42" width="880" height="42" role="img" aria-label="01 CREDENTIALS &amp; NOTES" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', ui-monospace, Menlo, Consolas, monospace">
+  <defs>
+    <style>
+      .pulse { animation: numGlow 4s ease-in-out infinite; }
+      @keyframes numGlow {
+        0%, 100% { opacity: 0.80; }
+        50%      { opacity: 1.00; }
+      }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+    </style>
+  </defs>
+  <text class="pulse" x="20" y="29" font-size="22" font-weight="600" fill="#9e7830" letter-spacing="1">01</text>
+  <text x="64" y="26" font-size="11" font-weight="600" fill="#1f2328" letter-spacing="3.2">CREDENTIALS &amp; NOTES</text>
+  <line x1="275" y1="22" x2="725" y2="22" stroke="#d0d7de" stroke-width="0.75"/>
+  <text x="860" y="26" text-anchor="end" font-size="10" fill="#76808a" letter-spacing="0.8">~/01-credentials</text>
+</svg>

@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Daniel Suárez — DASS — Software Developer, Data Science &amp; AI Engineering" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', ui-monospace, Menlo, Consolas, monospace">
+  <defs>
+    <style>
+      .bar { transform-box: fill-box; transform-origin: left center; }
+      .bar-0 { animation: barPulse 4.4s ease-in-out infinite 0.00s; }
+      .bar-1 { animation: barPulse 4.4s ease-in-out infinite 0.28s; }
+      .bar-2 { animation: barPulse 4.4s ease-in-out infinite 0.56s; }
+      .bar-3 { animation: barPulse 4.4s ease-in-out infinite 0.84s; }
+      @keyframes barPulse {
+        0%, 100% { filter: brightness(1.0); opacity: 0.90; }
+        20%      { filter: brightness(1.48); opacity: 1.00; }
+        44%      { filter: brightness(1.0); opacity: 0.90; }
+      }
+      .sheen { animation: sweep 5.2s ease-in-out infinite; }
+      @keyframes sweep {
+        0%, 56%  { transform: translateX(-180px); opacity: 0; }
+        70%      { opacity: 0.28; }
+        92%      { transform: translateX(680px); opacity: 0; }
+        100%     { transform: translateX(680px); opacity: 0; }
+      }
+      .aura { animation: auraBreath 4.8s ease-in-out infinite; }
+      @keyframes auraBreath {
+        0%, 100% { opacity: 0.22; }
+        50%      { opacity: 0.52; }
+      }
+      .dot-ring { transform-box: fill-box; transform-origin: center; animation: ping 2.8s cubic-bezier(0,0,0.2,1) infinite; }
+      @keyframes ping {
+        0%   { transform: scale(1); opacity: 0.75; }
+        75%  { transform: scale(2.4); opacity: 0; }
+        100% { transform: scale(2.4); opacity: 0; }
+      }
+      .s0 { animation: segGlow 4.2s ease-in-out infinite 0.0s; }
+      .s1 { animation: segGlow 4.2s ease-in-out infinite 0.3s; }
+      .s2 { animation: segGlow 4.2s ease-in-out infinite 0.6s; }
+      .s3 { animation: segGlow 4.2s ease-in-out infinite 0.9s; }
+      @keyframes segGlow {
+        0%, 100% { opacity: 0.58; }
+        25%      { opacity: 1.00; }
+        55%      { opacity: 0.58; }
+      }
+      .cursor { animation: blink 1.15s step-end infinite; }
+      @keyframes blink {
+        0%, 49%  { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .bar-0, .bar-1, .bar-2, .bar-3, .sheen, .aura, .dot-ring, .s0, .s1, .s2, .s3, .cursor { animation: none; }
+      }
+    </style>
+
+    <clipPath id="emblem-clip"><polygon points="77,10 577,10 517,130 17,130"/></clipPath>
+
+    <linearGradient id="sheen-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="hero-aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b89146" stop-opacity="0.40"/>
+      <stop offset="45%" stop-color="#537195" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#537195" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Subtle ambient glow behind the DASS emblem -->
+  <ellipse class="aura" cx="440" cy="86" rx="280" ry="52" fill="url(#hero-aura)"/>
+
+  <!-- Top meta bar (DhritiVaz architectural style) -->
+  <text x="20" y="20" font-size="9.5" fill="#57606a" letter-spacing="2.2">DANIEL SUÁREZ · GUAYAQUIL, EC</text>
+  <circle class="dot-ring" cx="702" cy="16.5" r="3.2" fill="#9e7830"/>
+  <circle cx="702" cy="16.5" r="2.8" fill="#9e7830"/>
+  <text x="712" y="20" font-size="9" fill="#57606a" letter-spacing="1.5">SOFTWARE · DATA · AI</text>
+
+  <!-- DASS Pixel Emblem (centered, scaled cleanly to 400x93.5) -->
+  <g transform="translate(240, 38) scale(0.668)">
+    <polygon points="77,10 577,10 517,130 17,130" fill="#0b111a"/>
+    <g class="bar bar-0" fill="#b89146">
+      <rect x="77" y="30" width="80" height="10" rx="1"/>
+      <rect x="72" y="40" width="80" height="9" rx="1"/>
+    </g>
+    <g class="bar bar-1" fill="#537195">
+      <rect x="67" y="50" width="80" height="10" rx="1"/>
+      <rect x="62" y="60" width="80" height="9" rx="1"/>
+    </g>
+    <g class="bar bar-2" fill="#844747">
+      <rect x="57" y="70" width="80" height="10" rx="1"/>
+      <rect x="52" y="80" width="80" height="9" rx="1"/>
+    </g>
+    <g class="bar bar-3" fill="#5b635d">
+      <rect x="47" y="90" width="80" height="10" rx="1"/>
+      <rect x="42" y="100" width="80" height="9" rx="1"/>
+    </g>
+    <g fill="#f8fafc">
+      
+    <rect x="77" y="10" width="500" height="10"/>
+    <rect x="62" y="20" width="10" height="10"/>
+    <rect x="572" y="20" width="10" height="10"/>
+    <rect x="57" y="30" width="10" height="10"/>
+    <rect x="167" y="30" width="80" height="10"/>
+    <rect x="287" y="30" width="50" height="10"/>
+    <rect x="377" y="30" width="80" height="10"/>
+    <rect x="477" y="30" width="80" height="10"/>
+    <rect x="567" y="30" width="10" height="10"/>
+    <rect x="52" y="40" width="10" height="10"/>
+    <rect x="162" y="40" width="90" height="10"/>
+    <rect x="272" y="40" width="70" height="10"/>
+    <rect x="362" y="40" width="90" height="10"/>
+    <rect x="462" y="40" width="90" height="10"/>
+    <rect x="562" y="40" width="10" height="10"/>
+    <rect x="47" y="50" width="10" height="10"/>
+    <rect x="157" y="50" width="30" height="10"/>
+    <rect x="217" y="50" width="30" height="10"/>
+    <rect x="257" y="50" width="30" height="10"/>
+    <rect x="317" y="50" width="30" height="10"/>
+    <rect x="357" y="50" width="30" height="10"/>
+    <rect x="457" y="50" width="30" height="10"/>
+    <rect x="557" y="50" width="10" height="10"/>
+    <rect x="42" y="60" width="10" height="10"/>
+    <rect x="152" y="60" width="30" height="10"/>
+    <rect x="212" y="60" width="30" height="10"/>
+    <rect x="252" y="60" width="30" height="10"/>
+    <rect x="312" y="60" width="30" height="10"/>
+    <rect x="352" y="60" width="80" height="10"/>
+    <rect x="452" y="60" width="80" height="10"/>
+    <rect x="552" y="60" width="10" height="10"/>
+    <rect x="37" y="70" width="10" height="10"/>
+    <rect x="147" y="70" width="30" height="10"/>
+    <rect x="207" y="70" width="30" height="10"/>
+    <rect x="247" y="70" width="90" height="10"/>
+    <rect x="357" y="70" width="80" height="10"/>
+    <rect x="457" y="70" width="80" height="10"/>
+    <rect x="547" y="70" width="10" height="10"/>
+    <rect x="32" y="80" width="10" height="10"/>
+    <rect x="142" y="80" width="30" height="10"/>
+    <rect x="202" y="80" width="30" height="10"/>
+    <rect x="242" y="80" width="90" height="10"/>
+    <rect x="402" y="80" width="30" height="10"/>
+    <rect x="502" y="80" width="30" height="10"/>
+    <rect x="542" y="80" width="10" height="10"/>
+    <rect x="27" y="90" width="10" height="10"/>
+    <rect x="137" y="90" width="90" height="10"/>
+    <rect x="237" y="90" width="30" height="10"/>
+    <rect x="297" y="90" width="30" height="10"/>
+    <rect x="337" y="90" width="90" height="10"/>
+    <rect x="437" y="90" width="90" height="10"/>
+    <rect x="537" y="90" width="10" height="10"/>
+    <rect x="22" y="100" width="10" height="10"/>
+    <rect x="132" y="100" width="80" height="10"/>
+    <rect x="232" y="100" width="30" height="10"/>
+    <rect x="292" y="100" width="30" height="10"/>
+    <rect x="332" y="100" width="80" height="10"/>
+    <rect x="432" y="100" width="80" height="10"/>
+    <rect x="532" y="100" width="10" height="10"/>
+    <rect x="17" y="110" width="10" height="10"/>
+    <rect x="527" y="110" width="10" height="10"/>
+    <rect x="22" y="120" width="500" height="10"/>
+
+    </g>
+    <g clip-path="url(#emblem-clip)">
+      <polygon class="sheen" points="60,0 130,0 75,140 5,140" fill="url(#sheen-grad)"/>
+    </g>
+  </g>
+
+  <!-- Editorial Monospace Tagline -->
+  <text x="440" y="170" text-anchor="middle" font-size="19" font-weight="600" fill="#1f2328" letter-spacing="0.4">
+    Building <tspan fill="#9e7830">my dreams</tspan>, building <tspan fill="#3f5d80">a history.</tspan><tspan class="cursor" fill="#9e7830">_</tspan>
+  </text>
+
+  <text x="440" y="198" text-anchor="middle" font-size="11.2" fill="#57606a" letter-spacing="0.45">
+    software development · data science &amp; ai engineering @ universidad de guayaquil
+  </text>
+  <text x="440" y="218" text-anchor="middle" font-size="10.2" fill="#76808a" letter-spacing="0.55">
+    full-stack &amp; event-driven systems · rag &amp; multi-agent workflows · real-time data pipelines
+  </text>
+
+  <!-- Animated 4-segment slanted DASS accent bar -->
+  <g transform="translate(180, 244) scale(0.591, 1)">
+    <polygon class="s0" points="4,0 218,0 213,5 0,5" fill="#b89146"/>
+    <polygon class="s1" points="223,0 438,0 433,5 218,5" fill="#537195"/>
+    <polygon class="s2" points="443,0 658,0 653,5 438,5" fill="#844747"/>
+    <polygon class="s3" points="663,0 880,0 875,5 658,5" fill="#5b635d"/>
+  </g>
+
+  <!-- Subtle bottom micro-caption -->
+  <text x="440" y="276" text-anchor="middle" font-size="9.2" fill="#76808a" letter-spacing="1.8">
+    I LOVE MY FAMILY AND MUSIC  ·  AZURE · GCP · AWS
+  </text>
+</svg>

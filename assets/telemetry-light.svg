@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 456" width="880" height="456" role="img" aria-label="Telemetry Dashboard — Language Distribution, Shipping Velocity, and GitHub Metrics" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', ui-monospace, Menlo, Consolas, monospace">
+  <defs>
+    <style>
+      .tbar { animation: barGlow 4.5s ease-in-out infinite; }
+      @keyframes barGlow {
+        0%, 100% { opacity: 0.82; }
+        35%      { opacity: 1.00; }
+        70%      { opacity: 0.82; }
+      }
+      .node-halo { transform-box: fill-box; transform-origin: center; animation: haloPing 2.8s ease-out infinite; }
+      @keyframes haloPing {
+        0%   { transform: scale(1); opacity: 0.85; }
+        80%  { transform: scale(2.8); opacity: 0; }
+        100% { transform: scale(2.8); opacity: 0; }
+      }
+      .vel-line { animation: shimmerLine 5s ease-in-out infinite; }
+      @keyframes shimmerLine {
+        0%, 100% { opacity: 0.88; }
+        50%      { opacity: 1.00; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .tbar, .node-halo, .vel-line { animation: none; }
+      }
+    </style>
+
+    <linearGradient id="vel-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9e7830" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#9e7830" stop-opacity="0.00"/>
+    </linearGradient>
+
+    <linearGradient id="vel-stroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3f5d80"/>
+      <stop offset="60%" stop-color="#9e7830"/>
+      <stop offset="100%" stop-color="#dfb462"/>
+    </linearGradient>
+  </defs>
+
+  <text x="20" y="20" font-size="9.5" fill="#1f2328" letter-spacing="2">TELEMETRY — WHAT THE HANDS ARE DOING</text>
+  <text x="860" y="20" text-anchor="end" font-size="9.5" fill="#76808a" letter-spacing="1.6">FIG. 02</text>
+  <line x1="20" y1="31" x2="860" y2="31" stroke="#d0d7de" stroke-width="0.75"/>
+
+  <text x="20" y="58" font-size="9" fill="#57606a" letter-spacing="1.6">LANGUAGE DISTRIBUTION · EST.</text>
+  <text x="334" y="58" font-size="9" fill="#57606a" letter-spacing="1.6">SHIPPING VELOCITY · 2024 → 2026</text>
+
+  <line x1="306" y1="50" x2="306" y2="238" stroke="#e5e9ef" stroke-width="0.75"/>
+  <line x1="586" y1="50" x2="586" y2="238" stroke="#e5e9ef" stroke-width="0.75"/>
+
+  <text x="20" y="86" font-size="10" fill="#1f2328" letter-spacing="0.5">jupyter</text><rect x="20" y="93" width="215" height="5" rx="1" fill="#eaeef2"/><rect class="tbar" style="animation-delay:0.00s" x="20" y="93" width="193.5" height="5" rx="1" fill="#9e7830"/><text x="245" y="98" font-size="9.5" fill="#57606a">36%</text>
+  <text x="20" y="118" font-size="10" fill="#1f2328" letter-spacing="0.5">typescript</text><rect x="20" y="125" width="215" height="5" rx="1" fill="#eaeef2"/><rect class="tbar" style="animation-delay:0.35s" x="20" y="125" width="129.0" height="5" rx="1" fill="#3f5d80"/><text x="245" y="130" font-size="9.5" fill="#57606a">24%</text>
+  <text x="20" y="150" font-size="10" fill="#1f2328" letter-spacing="0.5">python</text><rect x="20" y="157" width="215" height="5" rx="1" fill="#eaeef2"/><rect class="tbar" style="animation-delay:0.70s" x="20" y="157" width="107.5" height="5" rx="1" fill="#7c3b3b"/><text x="245" y="162" font-size="9.5" fill="#57606a">20%</text>
+  <text x="20" y="182" font-size="10" fill="#1f2328" letter-spacing="0.5">javascript</text><rect x="20" y="189" width="215" height="5" rx="1" fill="#eaeef2"/><rect class="tbar" style="animation-delay:1.05s" x="20" y="189" width="86.0" height="5" rx="1" fill="#4d5650"/><text x="245" y="194" font-size="9.5" fill="#57606a">16%</text>
+  <text x="20" y="214" font-size="10" fill="#1f2328" letter-spacing="0.5">sql · web</text><rect x="20" y="221" width="215" height="5" rx="1" fill="#eaeef2"/><rect class="tbar" style="animation-delay:1.40s" x="20" y="221" width="21.5" height="5" rx="1" fill="#3f5d80"/><text x="245" y="226" font-size="9.5" fill="#57606a">4%</text>
+
+  <line x1="334" y1="210" x2="564" y2="210" stroke="#d0d7de" stroke-width="0.75"/>
+  <path d="M 338,206 C 382,204 415,188 447,178 C 482,167 518,125 556,98 L 556,210 L 338,210 Z" fill="url(#vel-grad)"/>
+  <path class="vel-line" d="M 338,206 C 382,204 415,188 447,178 C 482,167 518,125 556,98" fill="none" stroke="url(#vel-stroke)" stroke-width="2" stroke-linecap="round"/>
+
+  <circle cx="338" cy="206" r="2.5" fill="#3f5d80"/>
+  <circle cx="447" cy="178" r="2.8" fill="#9e7830"/>
+  <circle class="node-halo" cx="556" cy="98" r="4.5" fill="#9e7830"/>
+  <circle cx="556" cy="98" r="3.5" fill="#dfb462" stroke="#ffffff" stroke-width="1"/>
+  <text x="556" y="85" text-anchor="end" font-size="9" font-weight="600" fill="#9e7830">360</text>
+
+  <text x="338" y="226" font-size="8.5" fill="#76808a">'24</text>
+  <text x="447" y="226" text-anchor="middle" font-size="8.5" fill="#76808a">'25</text>
+  <text x="556" y="226" text-anchor="end" font-size="8.5" fill="#76808a">'26</text>
+  <text x="334" y="248" font-size="9.5" fill="#57606a" letter-spacing="0.6">trend — <tspan fill="#9e7830">accelerating</tspan></text>
+
+  <text x="612" y="104" font-size="23" font-weight="600" fill="#1f2328" letter-spacing="0.5">22</text><text x="676" y="100" font-size="9" fill="#57606a" letter-spacing="1.5">REPOSITORIES</text>
+  <text x="612" y="143" font-size="23" font-weight="600" fill="#9e7830" letter-spacing="0.5">360</text><text x="676" y="139" font-size="9" fill="#57606a" letter-spacing="1.5">2026 CONTRIBUTIONS</text>
+  <text x="612" y="182" font-size="23" font-weight="600" fill="#1f2328" letter-spacing="0.5">3</text><text x="676" y="178" font-size="9" fill="#57606a" letter-spacing="1.5">CLOUD CERTIFICATIONS</text>
+  <text x="612" y="221" font-size="23" font-weight="600" fill="#1f2328" letter-spacing="0.5">∞</text><text x="676" y="217" font-size="9" fill="#57606a" letter-spacing="1.5">AGENT SESSIONS OPEN</text>
+
+  <rect x="20" y="274" width="408" height="164" rx="2" fill="none" stroke="#d0d7de" stroke-width="0.75"/>
+  <text x="40" y="298" font-size="9.5" font-weight="600" fill="#1f2328" letter-spacing="2">GITHUB TELEMETRY</text>
+  <line x1="40" y1="308" x2="408" y2="308" stroke="#e5e9ef" stroke-width="0.75"/>
+  <text x="40" y="326" font-size="9.5" fill="#57606a" letter-spacing="1.2">2026 CONTRIBUTIONS</text><text x="408" y="326" text-anchor="end" font-size="10.5" font-weight="600" fill="#1f2328">360</text>
+  <text x="40" y="348" font-size="9.5" fill="#57606a" letter-spacing="1.2">2026 COMMITS</text><text x="408" y="348" text-anchor="end" font-size="10.5" font-weight="600" fill="#1f2328">168</text>
+  <text x="40" y="370" font-size="9.5" fill="#57606a" letter-spacing="1.2">PUBLIC REPOSITORIES</text><text x="408" y="370" text-anchor="end" font-size="10.5" font-weight="600" fill="#1f2328">18</text>
+  <text x="40" y="392" font-size="9.5" fill="#57606a" letter-spacing="1.2">PRIVATE BUILDS</text><text x="408" y="392" text-anchor="end" font-size="10.5" font-weight="600" fill="#1f2328">4</text>
+  <text x="40" y="414" font-size="9.5" fill="#57606a" letter-spacing="1.2">CLOUD CREDENTIALS</text><text x="408" y="414" text-anchor="end" font-size="10.5" font-weight="600" fill="#1f2328">3</text>
+
+  <rect x="452" y="274" width="408" height="164" rx="2" fill="none" stroke="#d0d7de" stroke-width="0.75"/>
+  <text x="472" y="298" font-size="9.5" font-weight="600" fill="#1f2328" letter-spacing="2">CORE FOCUS AREAS</text>
+  <line x1="472" y1="308" x2="840" y2="308" stroke="#e5e9ef" stroke-width="0.75"/>
+  <text x="472" y="326" font-size="9.2" fill="#57606a" letter-spacing="0.8">AI / AGENTS &amp; RAG</text><rect x="636" y="318" width="200" height="8" rx="1" fill="#eaeef2" stroke="#d0d7de" stroke-width="0.6"/><rect class="tbar" style="animation-delay:0.00s" x="636" y="318" width="184.0" height="8" rx="1" fill="#9e7830"/>
+  <text x="472" y="348" font-size="9.2" fill="#57606a" letter-spacing="0.8">SOFTWARE &amp; FULL-STACK</text><rect x="636" y="340" width="200" height="8" rx="1" fill="#eaeef2" stroke="#d0d7de" stroke-width="0.6"/><rect class="tbar" style="animation-delay:0.40s" x="636" y="340" width="176.0" height="8" rx="1" fill="#3f5d80"/>
+  <text x="472" y="370" font-size="9.2" fill="#57606a" letter-spacing="0.8">BIG DATA &amp; STREAMING</text><rect x="636" y="362" width="200" height="8" rx="1" fill="#eaeef2" stroke="#d0d7de" stroke-width="0.6"/><rect class="tbar" style="animation-delay:0.80s" x="636" y="362" width="164.0" height="8" rx="1" fill="#7c3b3b"/>
+  <text x="472" y="392" font-size="9.2" fill="#57606a" letter-spacing="0.8">ML / DEEP LEARNING</text><rect x="636" y="384" width="200" height="8" rx="1" fill="#eaeef2" stroke="#d0d7de" stroke-width="0.6"/><rect class="tbar" style="animation-delay:1.20s" x="636" y="384" width="160.0" height="8" rx="1" fill="#4d5650"/>
+  <text x="472" y="414" font-size="9.2" fill="#57606a" letter-spacing="0.8">CLOUD &amp; EVENT-DRIVEN</text><rect x="636" y="406" width="200" height="8" rx="1" fill="#eaeef2" stroke="#d0d7de" stroke-width="0.6"/><rect class="tbar" style="animation-delay:1.60s" x="636" y="406" width="156.0" height="8" rx="1" fill="#9e7830"/>
+</svg>
